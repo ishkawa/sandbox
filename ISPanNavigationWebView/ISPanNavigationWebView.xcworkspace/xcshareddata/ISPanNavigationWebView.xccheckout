@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD78FBC9-C512-48D2-8661-3A1E5020D270</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ISPanNavigationWebView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA8B3FFD-8F1F-40CD-BC39-0D67CE8A92C3</key>
+		<string>ssh://github.com/ishkawa/ISPanNavigationWebView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ISPanNavigationWebView.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA8B3FFD-8F1F-40CD-BC39-0D67CE8A92C3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ishkawa/ISPanNavigationWebView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA8B3FFD-8F1F-40CD-BC39-0D67CE8A92C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA8B3FFD-8F1F-40CD-BC39-0D67CE8A92C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ISPanNavigationWebView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
