@@ -23,8 +23,7 @@ extension GitHubRequestType where Response: PaginationResponseType, Response.Ele
     func responseFromObject(object: AnyObject, URLResponse: NSHTTPURLResponse) -> Response? {
         let hasNextPage = URLResponse.findLink(relation: "next") != nil
 
-        return object["items"]
-            .flatMap { try? decodeArray($0) as [Response.Element] }
-            .map { Response(elements: $0, hasNextPage: hasNextPage) }
+        let elements = try? decodeArray(object, rootKeyPath: "items") as [Response.Element]
+        return elements.map { Response(elements: $0, hasNextPage: hasNextPage) }
     }
 }
